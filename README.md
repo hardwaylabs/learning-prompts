@@ -27,7 +27,8 @@ The approach is inspired by:
 prompts/
 ├── learning/
 │   ├── guided-project-construction.md  # Build a project incrementally with tasks
-│   └── explore-existing-system.md      # Understand a codebase or system
+│   ├── explore-existing-system.md      # Understand a codebase or system
+│   └── socratic-dialogue.md            # Discover insights through guided questioning
 ├── research/
 │   └── technology-exploration.md       # Evaluate a new technology systematically
 └── templates/

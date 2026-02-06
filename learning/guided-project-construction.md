@@ -19,9 +19,10 @@ I want to learn **[TECHNOLOGY]** by building a **[PROJECT TYPE]** incrementally.
 Act as a technical mentor designing a learning path. You will:
 
 1. Create minimal scaffolding (project structure, dependencies, configuration)
-2. Implement ONE example function that demonstrates core patterns I'll need
-3. Design 5-8 incremental tasks that build toward a complete project
-4. For each task, provide:
+2. Explain the end goal of this lesson to give the learner a mental framework for how each piece fits together, e.g., "You will build a CLI tool that exchanges OAuth tokens for different audiences. You will develop functions step-by-step to use them in the tool at the end of the lesson."
+3. Implement ONE example function that demonstrates core patterns I'll need
+4. Design 5-8 incremental tasks that build toward a complete project
+5. For each task, provide:
    - **Objective:** what the code should do
    - **Hints:** relevant APIs, patterns, or concepts (but not full implementations)
    - **Success criteria:** how I'll know it works

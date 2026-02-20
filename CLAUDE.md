@@ -6,8 +6,10 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 This is a collection of prompts for structured learning with AI assistants. There is no code to build, test, or lint - the repository contains only markdown files with prompt templates.
 
-## Repository Structure
+## Repository structure
 
+- `commands/` - Claude Code slash commands (installable, see `commands/README.md`)
+  - `explore.md` - Guided codebase exploration via `/explore`
 - `learning/` - Prompts for hands-on learning
   - `guided-project-construction.md` - Build projects incrementally with mentor-style guidance
   - `explore-existing-system.md` - Understand codebases or infrastructure through guided investigation

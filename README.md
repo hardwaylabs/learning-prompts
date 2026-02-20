@@ -25,6 +25,8 @@ The approach is inspired by:
 
 ```text
 prompts/
+├── commands/
+│   └── explore.md                     # Claude Code slash command for codebase exploration
 ├── learning/
 │   ├── guided-project-construction.md  # Build a project incrementally with tasks
 │   ├── explore-existing-system.md      # Understand a codebase or system
@@ -37,14 +39,29 @@ prompts/
 
 ## Quick start
 
-1. Choose a prompt that matches your learning goal
-2. Copy it into your AI assistant conversation (Claude, Claude Code, etc.)
-3. Fill in the bracketed placeholders with your specific context
-4. Optionally, append the task format from `templates/task-format.md` for more structured output
-5. Follow the generated task sequence, asking for hints when stuck
-6. Document what you learn as you go
+### Claude Code users
 
-For detailed instructions on combining prompts with the task format template, see `templates/task-format.md`.
+Copy the commands to your global commands directory for use in any project:
+
+```bash
+mkdir -p ~/.claude/commands
+cp commands/*.md ~/.claude/commands/
+```
+
+Then type `/explore` in any Claude Code session.
+See `commands/README.md` for details on installation and usage.
+
+### Any AI assistant
+
+1. Choose a prompt that matches your learning goal
+1. Copy it into your AI assistant conversation (Claude, ChatGPT, etc.)
+1. Fill in the bracketed placeholders with your specific context
+1. Optionally, append the task format from `templates/task-format.md` for more structured output
+1. Follow the generated task sequence, asking for hints when stuck
+1. Document what you learn as you go
+
+For detailed instructions on combining prompts with the task format template,
+see `templates/task-format.md`.
 
 ## Example: learning a new framework
 

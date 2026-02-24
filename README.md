@@ -26,7 +26,9 @@ The approach is inspired by:
 ```text
 prompts/
 ├── commands/
-│   └── explore.md                     # Claude Code slash command for codebase exploration
+│   ├── explore.md                     # Claude Code slash command for codebase exploration
+│   ├── guided-project.md             # Learn a technology by building incrementally
+│   └── socratic.md                    # Understand concepts through guided questioning
 ├── learning/
 │   ├── guided-project-construction.md  # Build a project incrementally with tasks
 │   ├── explore-existing-system.md      # Understand a codebase or system

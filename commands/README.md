@@ -10,6 +10,8 @@ Each `.md` file becomes a `/command` you can invoke inside a Claude Code session
 | Command | Description |
 | ------- | ----------- |
 | `/explore` | Guided exploration of an existing codebase or system |
+| `/guided-project` | Learn a technology by building a project incrementally |
+| `/socratic` | Understand a concept deeply through guided questioning |
 
 ## Installation
 
@@ -44,7 +46,11 @@ In a Claude Code session, type `/` followed by the command name:
 ```text
 /explore the authentication system
 /explore how data flows from API to database
-/explore                           # Claude will ask what to focus on
+/explore                              # Claude will ask what to focus on
+/guided-project Genkit document summarization agent
+/guided-project Ray Serve ML model serving with batching
+/socratic why Kubernetes uses declarative config over imperative commands
+/socratic how permission intersection works in agent delegation
 ```
 
 Everything after the command name is passed as `$ARGUMENTS` to the prompt template.

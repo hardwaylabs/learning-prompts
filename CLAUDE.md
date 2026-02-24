@@ -10,6 +10,8 @@ This is a collection of prompts for structured learning with AI assistants. Ther
 
 - `commands/` - Claude Code slash commands (installable, see `commands/README.md`)
   - `explore.md` - Guided codebase exploration via `/explore`
+  - `guided-project.md` - Learn by building a project via `/guided-project`
+  - `socratic.md` - Understand concepts through guided questioning via `/socratic`
 - `learning/` - Prompts for hands-on learning
   - `guided-project-construction.md` - Build projects incrementally with mentor-style guidance
   - `explore-existing-system.md` - Understand codebases or infrastructure through guided investigation
